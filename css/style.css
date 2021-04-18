@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+.fuenteGrande {
+    font-size: larger;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+.textoNegro {
+    color: black;
+}
+
+.textoBlanco {
+    color: white;
+}
+
+.textoBlanco:hover {
+    color: #FF1616;
+}
+
+
+/* PORTADA */
+
+.tamanioFotoPortada {
+    width: 75%;
+}
