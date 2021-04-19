@@ -1,6 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+.imagenFondo {
+    background-image: url(../img/portada\ youtube\ music.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
 }
 
 
@@ -27,8 +36,28 @@
 }
 
 
-/* PORTADA */
+/* BIO */
 
-.tamanioFotoPortada {
-    width: 75%;
+.marginBio {
+    margin-top: 460px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767.98px) {
+    .imagenFondo {
+        background-image: url(../img/fondoSM.png);
+        background-size: cover;
+    }
+    .marginBio {
+        margin-top: 320px;
+    }
+    .alturaFeed {
+        height: 320px;
+        margin-top: 20px;
+    }
+    .ocultar {
+        display: none;
+    }
 }
