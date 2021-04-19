@@ -11,19 +11,10 @@ li {
 
 /* EFECTO FONDO BLUR */
 
-
-/* .imagenFondo {
-    background-image: url(../img/portada\ youtube\ music.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: scroll;
-} */
-
 .img-src {
     position: fixed;
     background-position: center;
-    -webkit-background-size: cover;
+    background-size: cover;
     top: 30px;
     bottom: 0;
     left: 0;
@@ -68,6 +59,17 @@ li {
 
 .marginBio {
     margin-top: 460px;
+}
+
+
+/* FOOTER */
+
+.iconosRS {
+    color: rgb(173, 169, 169);
+}
+
+.iconosRS:hover {
+    color: white;
 }
 
 
