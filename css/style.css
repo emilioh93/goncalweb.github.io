@@ -4,16 +4,44 @@
     color: white;
 }
 
-.imagenFondo {
+li {
+    list-style: none;
+}
+
+
+/* EFECTO FONDO BLUR */
+
+
+/* .imagenFondo {
     background-image: url(../img/portada\ youtube\ music.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: scroll;
+} */
+
+.img-src {
+    position: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+.blurred-img {
+    opacity: 0;
 }
 
 
 /* NAVBAR */
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 
 .fuenteGrande {
     font-size: larger;
@@ -46,9 +74,11 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 767.98px) {
-    .imagenFondo {
-        background-image: url(../img/fondoSM.png);
-        background-size: cover;
+    .navSm {
+        padding: 20px 0;
+    }
+    .fuenteLogo {
+        font-size: 30px;
     }
     .marginBio {
         margin-top: 320px;
@@ -59,5 +89,8 @@
     }
     .ocultar {
         display: none;
+    }
+    .img-src {
+        top: 0;
     }
 }

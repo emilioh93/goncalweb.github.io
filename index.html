@@ -6,21 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="description" content="">
+    <meta name="description" content="Página Oficial de Chuka Hurtado">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/faviconChuka.jpg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d994430473.js" crossorigin="anonymous"></script>
     <title>Chuka Hurtado</title>
 </head>
 
 <body class="imagenFondo">
+    <div class="img-src" style="background-image:url('img/fondoLg1.jpg')"></div>
+    <div class="img-src blurred-img" style="background-image:url('img/fondoLgDif.png')"></div>
+    </div>
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg fondoNegro fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-lg fondoNegro navbar-dark fixed-top">
             <div class="container-fluid container">
-                <a class="navbar-brand" href="#">chuka.hurtado</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fuenteLogo navbar-brand">chuka hurtado</span>
+                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -76,12 +80,21 @@
                     <iframe width="100%" height="300" class="alturaFeed" src="https://www.instagram.com/p/BoXbC-hFRT-/embed" frameborder="0"></iframe>
                 </div>
             </article>
-            <!-- ICONOS DE REDES -->
-            <article></article>
         </section>
     </main>
-    <footer></footer>
+    <footer class="mt-5 py-4">
+        <ul class="d-flex justify-content-center list-unstyled">
+            <li class="mx-4"><i class="fa-3x fab fa-instagram"></i></li>
+            <li class="mx-4"><i class="fa-3x fab fa-spotify"></i></li>
+            <li class="mx-4"><i class="fa-3x fab fa-youtube"></i></li>
+            <li class="mx-4"><i class="fa-3x fab fa-apple"></i></li>
+        </ul>
+        <h5 class="text-center my-5">&copy; Todos los derechos reservados</h5>
+    </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
