@@ -8,6 +8,10 @@ li {
     list-style: none;
 }
 
+h1 {
+    color: rgb(173, 169, 169);
+}
+
 
 /* EFECTO FONDO BLUR */
 
@@ -64,6 +68,8 @@ li {
 
 /* Ultimo Lanzamiento */
 
+.aquellosTexto {}
+
 .videoIndex {
     width: 100%;
     height: 650px;
@@ -71,6 +77,40 @@ li {
 
 .escuchaloEn {
     margin-top: 20px;
+}
+
+.spotifyAquellos {
+    color: #1DB954;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.spotifyAquellos:hover {
+    color: #1DB954;
+}
+
+
+/* MUSICA */
+
+.musicaPortada {
+    width: 400px;
+    height: 400px;
+}
+
+.tituloLanzamiento {
+    color: whitesmoke;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+.spotifyEmbedSencillo {
+    width: 95%;
+    height: 242px;
+}
+
+.spotifyEmbedAlbum {
+    width: 95%;
+    height: 242px;
 }
 
 
@@ -88,6 +128,10 @@ li {
 /* MEDIA QUERIES */
 
 @media (max-width: 767.98px) {
+    h1 {
+        color: rgb(173, 169, 169);
+        text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+    }
     .navSm {
         padding: 20px 0;
     }
@@ -113,5 +157,23 @@ li {
     }
     .escuchaloEn {
         margin-top: 10px;
+        text-align: center;
+    }
+    /* MUSICA */
+    .musicaPortada {
+        height: 180px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    .centradoLanzamientos {
+        text-align: center;
+    }
+    .spotifyEmbedSencillo {
+        width: 70%;
+        height: 60px;
+    }
+    .spotifyEmbedAlbum {
+        width: 70%;
+        height: 250px;
     }
 }
