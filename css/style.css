@@ -62,6 +62,18 @@ li {
 }
 
 
+/* Ultimo Lanzamiento */
+
+.videoIndex {
+    width: 100%;
+    height: 650px;
+}
+
+.escuchaloEn {
+    margin-top: 20px;
+}
+
+
 /* FOOTER */
 
 .iconosRS {
@@ -94,5 +106,12 @@ li {
     }
     .img-src {
         top: 0;
+    }
+    .videoIndex {
+        width: 100%;
+        height: 250px;
+    }
+    .escuchaloEn {
+        margin-top: 10px;
     }
 }
