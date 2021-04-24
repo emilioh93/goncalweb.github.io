@@ -71,8 +71,8 @@ h1 {
 .aquellosTexto {}
 
 .videoIndex {
-    width: 100%;
-    height: 650px;
+    width: 75%;
+    height: 500px;
 }
 
 .escuchaloEn {
@@ -93,8 +93,8 @@ h1 {
 /* MUSICA */
 
 .musicaPortada {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 .tituloLanzamiento {
@@ -105,12 +105,12 @@ h1 {
 
 .spotifyEmbedSencillo {
     width: 95%;
-    height: 242px;
+    height: 200px;
 }
 
 .spotifyEmbedAlbum {
     width: 95%;
-    height: 242px;
+    height: 200px;
 }
 
 
