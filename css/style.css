@@ -170,10 +170,10 @@ h1 {
     }
     .spotifyEmbedSencillo {
         width: 70%;
-        height: 60px;
+        height: 80px;
     }
     .spotifyEmbedAlbum {
         width: 70%;
-        height: 250px;
+        height: 350px;
     }
 }
