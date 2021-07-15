@@ -66,6 +66,59 @@ h1 {
 }
 
 
+/* Link Tree */
+
+.marginLinkTree {
+    margin-top: 460px;
+}
+
+#botonLinkTreeYouTube {
+    border: 5px solid rgb(241, 53, 53);
+}
+
+#botonLinkTreeYouTube:hover {
+    background-color: rgba(128, 128, 128, 0.39);
+    border: 5px solid rgba(128, 128, 128, 0);
+}
+
+.contenedorLinkTree {
+    margin-bottom: 20px;
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.enlaceLinkTree {
+    text-decoration: none;
+}
+
+.botonLinkTree:hover {
+    background-color: rgba(128, 128, 128, 0.39);
+    border: 5px solid rgba(128, 128, 128, 0);
+}
+
+.botonLinkTree {
+    border: 5px solid whitesmoke;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconosLinkTree {
+    position: relative;
+    left: -260px;
+    top: 2px;
+}
+
+.nombreLinkTree {
+    font-size: 23px;
+    position: relative;
+    left: -10px;
+}
+
+
 /* Ultimo Lanzamiento */
 
 .aquellosTexto {}
@@ -99,8 +152,8 @@ h1 {
 
 .tituloLanzamiento {
     color: whitesmoke;
-    margin-top: ;
-    margin-bottom: ;
+    /* margin-top: ;
+    margin-bottom: ; */
 }
 
 .spotifyEmbedSencillo {
@@ -175,5 +228,20 @@ h1 {
     .spotifyEmbedAlbum {
         width: 70%;
         height: 350px;
+    }
+    /* Link Tree */
+    .contenedorLinkTree {
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .nombreLinkTree {
+        font-size: medium;
+        position: relative;
+        left: -10px;
+    }
+    .marginLinkTree {
+        margin-top: 375px;
     }
 }
