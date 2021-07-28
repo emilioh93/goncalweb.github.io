@@ -6,3 +6,14 @@ $(window).scroll(function() {
   // opacity value 0% to 100%
   $('.blurred-img').css('opacity', opacityVal);
 });
+
+/* -------------------------------- Parallax -------------------------------- */
+
+function parallax() {
+  window.onscroll = function() {
+    var speed = 5.0;
+    document.body.style.backgroundPosition = (-window.pageXOffset/speed)+"px "+(-window.pageYOffset/speed)+"px";
+  }
+}
+
+parallax();

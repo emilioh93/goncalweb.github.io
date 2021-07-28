@@ -19,7 +19,10 @@ body {
     background-image: url(../img/fondoMobile.webp)!important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center!important;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 
