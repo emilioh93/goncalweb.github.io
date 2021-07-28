@@ -216,6 +216,9 @@ body {
         height: 350px;
     }
     /* Link Tree */
+    body {
+        background-image: url(../img/fondoMobile.webp)!important;
+    }
     .contenedorLinkTree {
         width: 100%;
         margin: 0px auto;
