@@ -15,7 +15,8 @@ h1 {
 
 /* EFECTO FONDO BLUR */
 
-.img-src {
+
+/* .img-src {
     position: fixed;
     background-position: center;
     background-size: cover;
@@ -29,7 +30,7 @@ h1 {
 
 .blurred-img {
     opacity: 0;
-}
+} */
 
 
 /* NAVBAR */
