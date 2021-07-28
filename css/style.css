@@ -15,22 +15,12 @@ h1 {
 
 /* EFECTO FONDO BLUR */
 
-
-/* .img-src {
-    position: fixed;
-    background-position: center;
+body {
+    background-image: url(../img/fondoMobile.webp)!important;
     background-size: cover;
-    top: 30px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-.blurred-img {
-    opacity: 0;
-} */
 
 
 /* NAVBAR */
