@@ -33,6 +33,10 @@ body {
     font-size: larger;
 }
 
+.nav-link {
+    display: none;
+}
+
 .fondoNegro {
     background-color: rgba(0, 0, 0, 0.144);
 }
@@ -64,7 +68,7 @@ body {
 /* Link Tree */
 
 .marginLinkTree {
-    margin-top: 460px;
+    margin-top: 100px;
 }
 
 #botonLinkTreeYouTube {
