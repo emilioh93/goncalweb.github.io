@@ -37,7 +37,7 @@ body {
 }
 
 .fondoNegro {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.144);
 }
 
 .textoNegro {
@@ -50,6 +50,10 @@ body {
 
 .textoBlanco:hover {
     color: #FF1616;
+}
+
+.navbar-toggler {
+    display: none
 }
 
 
@@ -176,7 +180,7 @@ body {
         padding: 20px 0;
     }
     .fuenteLogo {
-        font-size: 30px;
+        font-size: 25px;
     }
     .marginBio {
         margin-top: 320px;
@@ -229,7 +233,7 @@ body {
         left: -10px;
     }
     .marginLinkTree {
-        margin-top: 375px;
+        margin-top: 193px;
     }
     .fa-2x {
         font-size: 22px!important;
