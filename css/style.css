@@ -72,7 +72,7 @@ body {
 }
 
 #botonLinkTreeYouTube {
-    border: 5px solid rgb(241, 53, 53);
+    border: 5px solid rgba(29, 112, 36, 0.459);
 }
 
 #botonLinkTreeYouTube:hover {
@@ -221,7 +221,7 @@ body {
     }
     /* Link Tree */
     body {
-        background-image: url(../img/fondoMobile.webp)!important;
+        background-image: url(../img/mesaDeLuzDifuminada.jpeg)!important;
     }
     .contenedorLinkTree {
         width: 100%;
