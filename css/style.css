@@ -223,6 +223,7 @@ footer {
     /* Link Tree */
     #fondo {
         background-image: url(../img/fondos/perfil\ chuka\ hurtado\ cuerpo\ completo.jpg)!important;
+        background-attachment: scroll;
     }
     .contenedorLinkTree {
         width: 100%;
