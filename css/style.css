@@ -4,10 +4,6 @@
     color: white;
 }
 
-html {
-    height: 100%;
-}
-
 li {
     list-style: none;
 }
@@ -18,6 +14,7 @@ li {
     background-repeat: no-repeat;
     background-position: center!important;
     background-attachment: fixed;
+    height: 115%;
 }
 
 
