@@ -11,7 +11,7 @@ li {
 
 /* EFECTO FONDO BLUR */
 
-body {
+#fondo {
     background-image: url(../img/fondos/fondo\ para\ desktop.jpg)!important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ body {
         height: 350px;
     }
     /* Link Tree */
-    body {
+    #fondo {
         background-image: url(../img/fondos/perfil\ chuka\ hurtado\ cuerpo\ completo.jpg)!important;
     }
     .contenedorLinkTree {
