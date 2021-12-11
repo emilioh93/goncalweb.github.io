@@ -14,8 +14,6 @@ li {
 #fondo {
     background-image: url(../img/fondos/fondo\ para\ desktop.jpg)!important;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center!important;
     background-attachment: fixed;
 }
 
