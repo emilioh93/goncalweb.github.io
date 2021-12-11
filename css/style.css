@@ -12,9 +12,6 @@ li {
     list-style: none;
 }
 
-
-/* EFECTO FONDO BLUR */
-
 #fondo {
     background-image: url(../img/fondos/fondo\ para\ desktop.jpg)!important;
     background-size: cover;
@@ -162,6 +159,10 @@ li {
 
 
 /* FOOTER */
+
+footer {
+    padding: 0.5rem;
+}
 
 .iconosRS {
     color: rgb(173, 169, 169);
