@@ -1,3 +1,17 @@
+/* ----------- Efecto para mostrar u ocultar navbar cuando scroll ----------- */
+let lastScrollTop = 0;
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', function(){
+    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop) {
+        navbar.style.top = '-80px'
+    } else {
+        navbar.style.top = '0'
+    }
+    lastScrollTop = scrollTop
+})
+
+/* ------------------- Mostrar linkTree de forma dinámica ------------------- */
 const datos = [
   {
     enlace: "https://open.spotify.com/artist/0AgV5f8reGCw563caRiW6x",

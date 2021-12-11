@@ -22,6 +22,10 @@ body {
 
 /* NAVBAR */
 
+#navbar {
+    transition: 0.5s;
+}
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
