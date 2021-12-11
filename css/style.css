@@ -12,7 +12,7 @@ li {
 /* EFECTO FONDO BLUR */
 
 body {
-    background-image: url(../img/fondoMobile.webp)!important;
+    background-image: url(../img/fondos/fondo\ para\ desktop.jpg)!important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center!important;
@@ -73,13 +73,13 @@ body {
 
 #botonLinkTreeYouTube:hover {
     background-color: rgba(128, 128, 128, 0.39);
-    border: 5px solid rgba(128, 128, 128, 0);
 }
 
 .contenedorLinkTree {
     width: 60%;
     margin: 0px auto;
     margin-bottom: 20px;
+    background-color: rgba(51, 51, 51, 0.493);
 }
 
 .enlaceLinkTree {
@@ -88,7 +88,6 @@ body {
 
 .botonLinkTree:hover {
     background-color: rgba(128, 128, 128, 0.39);
-    border: 5px solid rgba(128, 128, 128, 0);
 }
 
 .botonLinkTree {
@@ -213,7 +212,7 @@ body {
     }
     /* Link Tree */
     body {
-        background-image: url(../img/mesaDeLuzDifuminada.jpeg)!important;
+        background-image: url(../img/fondos/perfil\ chuka\ hurtado\ cuerpo\ completo.jpg)!important;
     }
     .contenedorLinkTree {
         width: 100%;
