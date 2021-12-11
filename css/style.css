@@ -14,7 +14,10 @@ li {
     background-repeat: no-repeat;
     background-position: center!important;
     background-attachment: fixed;
-    height: 115%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 
